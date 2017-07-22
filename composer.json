@@ -1,0 +1,31 @@
+{
+    "name": "deskti/laravel-config-writer",
+    "description": "Configuration extension",
+    "homepage": "http://octobercms.com",
+    "keywords": ["deskti", "laravel", "config", "write"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Bobkov",
+            "email": "aleksey.bobkov@gmail.com"
+        },
+        {
+            "name": "Samuel Georges",
+            "email": "daftspunky@gmail.com"
+        },
+		{
+            "name": "Marcos Moraes",
+            "email": "marcos.deskti@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/config": "~5.2."
+    },
+    "autoload": {
+        "psr-4": {
+            "October\\Rain\\Config\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
