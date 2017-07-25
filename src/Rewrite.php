@@ -28,9 +28,9 @@ class Rewrite
 
     public function toFile($filePath, $newValues, $useValidation = true)
     {
-        $contents = file_get_contents($filePath);
+        $contents = \File::get($filePath);
         $contents = $this->toContent($contents, $newValues, $useValidation);
-        file_put_contents($filePath, $contents);
+        \File::put($filePath, $contents);
         return $contents;
     }
 
