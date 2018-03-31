@@ -1,4 +1,4 @@
-## Laravel Config Writer for version 5.2
+## Laravel Config Writer for version 5.4
 
 Write to Laravel Config files and maintain file integrity.
 
